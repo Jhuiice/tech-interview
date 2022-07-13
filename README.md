@@ -1,10 +1,10 @@
 This is my repository of all practice leading up to and after my techinical interviews.
 
 Start Date For Data Structures and Algorithms and Systems Design practice: June 26th, 2022
-Jobs Applied for: 20
-Phone Interviews: 1
+Jobs Applied for: 24
+Phone Interviews: 2
 Technical Interviews: 0
-On-site Interviews: 1
+On-site Interviews: 0
 Hire Date: TBD
 
 I am using...
@@ -89,3 +89,5 @@ Portfolio Website (unpublished) with JavaScript HTML/CSS.
 Project Ideas along learning.
 
 3rd party service to render digital goods as NFTs to show proof of ownership to seller company. This can help people show they have the ownership of their digital assets for any technical issues they have as a buyer.
+
+A website with Specific NFT login access for pay wall features.
