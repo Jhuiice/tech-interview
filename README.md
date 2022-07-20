@@ -76,6 +76,13 @@ Technologies I want to learn (TODO)
   - Typescript
   - C++ for coding challenges
   - AWS
+    - EC2
+    - DynamoDB
+    - Lambda
+  - Vue
+  - Advanced Node.js
+  - Advanced Express.js
+  - Advanced SQL topics and data modeling
 
 
 Projects I have created:

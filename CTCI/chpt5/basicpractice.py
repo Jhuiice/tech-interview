@@ -89,7 +89,8 @@ def set_bit(num, i):
 
 
 def clear_bit(num, i):
-    return num & (not (1 << i))
+    mask = ~(1 << i)
+    return num & mask
 
 
 print(clear_bit(9, 3))

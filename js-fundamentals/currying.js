@@ -18,3 +18,14 @@ console.log(dragon('Daisy')('Huge')("Water"))
 console.log(dragon('Daisy'))
 
 // filter?
+
+const resturant = name => size => condition => {
+    if (name === "nimarcos") {
+        console.log("Chase and Sean")
+    }
+    let statement = name + " has capacity of " + size + " and the conditions are " + condition;
+
+    return statement
+}
+
+console.log(resturant("nimarcos")("57")("great"))
