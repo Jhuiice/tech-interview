@@ -32,7 +32,7 @@ def search(nums, target):
 
     while l <= r:
         m = l + ((r - l) // 2)
-        print("left, right, mid", l, r, m)  # (l + r) // 2 can lead to overflow
+        # print("left, right, mid", l, r, m)  # (l + r) // 2 can lead to overflow
         if nums[m] > target:
             r = m - 1
         elif nums[m] < target:
@@ -43,3 +43,4 @@ def search(nums, target):
 
 
 print(search([-1, 0, 3, 5, 9, 12], 9))
+print(search([5], 5))
