@@ -29,3 +29,4 @@ arr4.sort((a,b) => a - b) // sort in acsending order
 arr4.sort((a,b) => b - a) // sort in descending order
 
 arr_map = arr4.map((num) => num*3 )
+
