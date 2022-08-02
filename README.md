@@ -1,7 +1,7 @@
 This is my repository of all practice leading up to and after my techinical interviews.
 
 Start Date For Data Structures and Algorithms and Systems Design practice: June 26th, 2022
-Jobs Applied for: 24
+Jobs Applied for: 60
 Phone Interviews: 2
 Technical Interviews: 0
 On-site Interviews: 0

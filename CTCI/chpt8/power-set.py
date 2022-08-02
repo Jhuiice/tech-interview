@@ -47,3 +47,5 @@ def power_set(sett):
 
 
 print(power_set({"a", "b", "c"}))
+
+# NOTE can use bit manipulation here because the letter is either in or out a yes/no a 1/0

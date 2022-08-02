@@ -16,7 +16,8 @@ def brute_force(nums):
 # if the numbers are non distinct once you get to an integer that is bigger than its index you can quit right there
 # ? What if all the integers are smaller than its index? still take O(log(n))
 
-
+# NOTE the below is not dynamic programming
+# ? How do i implement dynamic programming?
 def binary_search_non_distinct(nums):
     l, r = 0, len(nums) - 1
 
@@ -31,6 +32,7 @@ def binary_search_non_distinct(nums):
         else:
             return True
         # ? Could I optimize this for non distinct nums?
+        # * Dynamic Programming
     return False
 
 
