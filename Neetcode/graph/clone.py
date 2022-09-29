@@ -85,7 +85,7 @@ def cloneBFS(node):
 
         for ngbr in cur.neighbors:
             if ngbr.val not in clones:
-                clones[ngbr.val] = Node(node.val, [])
+                clones[ngbr.val] = Node(ngbr.val, [])
                 q.append(ngbr)
                 # how do i append neighbors????????
             cur_clone.neighbors.append(clones[ngbr.val])
