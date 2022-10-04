@@ -28,10 +28,11 @@ def bfs(root, val):
 
 
 # ? How do i make this break out of the stack? Force Quit a stack? when the val is equal to the wanted val
+# ! This is an optimized dfs from the questions above.
 def dfs(root, val):
     if not root:
         return False
-
+    print(root.val)
     if root.val == val:
         return True
 
