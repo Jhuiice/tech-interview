@@ -15,20 +15,35 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        q = deque([root])
         min_value = float('inf')
 
-        while q:
-            cur = q.pop()
-            if cur.val < min_value:
-                min_value = cur.val
+        def bfs(root, min_value):
+            q = deque([root])
 
-            if cur.left:
-                q.appendleft(cur.left)
-            if cur.right:
-                q.appendleft(cur.right)
+            while q:
+                cur = q.pop()
+                if cur.val < min_value:
+                    min_value = cur.val
 
-        return min_value
+                if cur.left:
+                    q.appendleft(cur.left)
+                if cur.right:
+                    q.appendleft(cur.right)
+
+            return min_value
+
+        def dfs(root, min_value):
+            if not root:
+                return min_value
+            if root.val < min_value:
+                min_value = root.val
+            value1 = dfs(root.left, min_value)
+            value2 = dfs(root.right, min_value)
+
+            min_value = min(value1, value2, min_value)
+            return min_value
+
+        return dfs(root, min_value)
 
 
 three = Node(3)
